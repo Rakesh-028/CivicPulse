@@ -1,0 +1,47 @@
+# ============================================================
+# CivicPulse — .gitignore
+# ============================================================
+
+# ----- Large Data Files (upload directly to Colab) ----------
+*.csv
+*.tsv
+*.xlsx
+
+# ----- Python Cache & Bytecode ------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ----- Jupyter / Colab Checkpoints --------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ----- Virtual Environments ---------------------------------
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# ----- Environment Variable Files ---------------------------
+.env
+.env.local
+*.env
+
+# ----- OS / Editor Artifacts --------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# ----- Logs & Temp Files ------------------------------------
+*.log
+*.tmp
+*.bak
+
+# ----- Extra (backup / scratch notebooks) -------------------
+extra/
